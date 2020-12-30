@@ -1,0 +1,190 @@
+body {
+  background-color: #19a2ae;
+  font-family: 'Kumbh Sans', sans-serif;
+  background: url("../app/images/bg-pattern-top.svg"), url("../app/images/bg-pattern-bottom.svg");
+  background-repeat: no-repeat;
+  background-position: right calc(50vw + 15%) bottom calc(65vh - 15vw), left calc(41vw + 25%) top calc(72vh - 10vw);
+  background-color: #19a2ae;
+  overflow: hidden;
+}
+
+#body-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+
+#body-container #container {
+  position: relative;
+  z-index: 5;
+  opacity: 1;
+  border-radius: 10px;
+  width: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: white;
+}
+
+#body-container #container #upper-block {
+  border-radius: 10px;
+  width: 100%;
+}
+
+#body-container #container #upper-block img {
+  border-radius: 10px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+#body-container #container #lower-block {
+  width: 100%;
+  text-align: center;
+  line-height: 25px;
+}
+
+#body-container #container #lower-block .grey {
+  color: #6a6f81;
+}
+
+#body-container #container #lower-block #profilepic {
+  position: relative;
+  border-radius: 50%;
+  height: 110px;
+  top: -55px;
+  margin: 0 auto;
+  width: 105px;
+  background-color: white;
+}
+
+#body-container #container #lower-block #profilepic img {
+  width: 90px;
+  position: relative;
+  top: 5px;
+  border-radius: 50%;
+}
+
+#body-container #container #lower-block #block1 {
+  position: relative;
+  top: -50px;
+  font-size: 18px;
+  font-weight: bolder;
+  width: inherit;
+  padding: 2% 2%;
+  height: 20px;
+}
+
+#body-container #container #lower-block #block1 .grey {
+  font-weight: 200;
+}
+
+#body-container #container #lower-block #block2 {
+  border-top: 1px solid #969696;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 4% 0;
+}
+
+#body-container #container #lower-block #block2 .details {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  width: auto;
+  padding: 1% 5%;
+  margin: 1% 4%;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+#body-container #container #lower-block #block2 .grey {
+  font-weight: normal;
+  font-size: 12px;
+}
+
+@media screen and (max-width: 600px) {
+  #body-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  #body-container #container {
+    width: 90%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background-color: white;
+  }
+  #body-container #container #upper-block {
+    width: 100%;
+  }
+  #body-container #container #upper-block img {
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=index.css.map */
